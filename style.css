@@ -10,8 +10,6 @@
     --primaryColor: #D90429;
     --secondaryColor: #8D99AE;
     --tertiaryColor: #272939; 
-    --mainWhite: #fff;
-    --mainBlack: #222;
     --bodyColor: #EDF2F4;
      --mainTransition: all 0.3s ease;
   }
@@ -62,7 +60,7 @@ margin-top: 100px;
 
   
 .todo-input, .todo-btn {
-    font-size: 3rem;
+    font-size: 2.5rem;
      border: none;
     outline: none;
     padding: 0.5rem; 
@@ -91,4 +89,24 @@ button > i {
 .completed{
     text-decoration: line-through;
     opacity: 0.5;
+}
+
+li {
+    box-shadow: 5px 5px 20px var(--secondaryColor);
+    border-radius: 12px;
+    color: var(--tertiaryColor);
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 20px;
+    padding: 15px;
+}
+
+li > span {
+    font-size: 1rem;
+}
+
+li > button {
+    font-size: 1.4rem;
+    padding: 8px;
+    color: var(--primaryColor);
 }
