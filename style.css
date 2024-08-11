@@ -80,4 +80,15 @@ margin-top: 100px;
     transition: var(--mainTransition);
 }
 
+button {
+    cursor: pointer;
+}
 
+button > i {
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
