@@ -19,6 +19,8 @@ Welcome to the Todo List App! This simple and handy tool helps you keep track of
 - Marking a Task as Completed: Click the check icon to toggle a task between completed and uncompleted.
 - Filtering Tasks: Use the dropdown menu to filter your tasks based on their status (all, completed, uncompleted).
 
+`In this project, we have utilized a significant number of functions, each handling a specific aspect of the application. These functions are designed to keep the code modular and maintainable, with each function managing a distinct piece of functionality. This approach allows for easier debugging, testing, and future enhancements.`
+
 ## 📂 Project Structure
 - `index.html`: The main HTML file.
 - `style.css`: The CSS file for styling.
